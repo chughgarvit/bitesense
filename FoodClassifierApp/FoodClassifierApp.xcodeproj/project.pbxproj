@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EA1D1102C9770E3005E8E3E /* FoodClassifierAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA1D10F2C9770E3005E8E3E /* FoodClassifierAppApp.swift */; };
+		6EA1D1122C9770E3005E8E3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA1D1112C9770E3005E8E3E /* ContentView.swift */; };
+		6EA1D1142C9770E5005E8E3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EA1D1132C9770E5005E8E3E /* Assets.xcassets */; };
+		6EA1D1172C9770E5005E8E3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EA1D1162C9770E5005E8E3E /* Preview Assets.xcassets */; };
+		6EA1D1212C9770E6005E8E3E /* FoodClassifierAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA1D1202C9770E6005E8E3E /* FoodClassifierAppTests.swift */; };
+		6EA1D12B2C9770E6005E8E3E /* FoodClassifierAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA1D12A2C9770E6005E8E3E /* FoodClassifierAppUITests.swift */; };
+		6EA1D12D2C9770E6005E8E3E /* FoodClassifierAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA1D12C2C9770E6005E8E3E /* FoodClassifierAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EA1D11D2C9770E6005E8E3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EA1D1042C9770E3005E8E3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EA1D10B2C9770E3005E8E3E;
+			remoteInfo = FoodClassifierApp;
+		};
+		6EA1D1272C9770E6005E8E3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EA1D1042C9770E3005E8E3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EA1D10B2C9770E3005E8E3E;
+			remoteInfo = FoodClassifierApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6EA1D10C2C9770E3005E8E3E /* FoodClassifierApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodClassifierApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA1D10F2C9770E3005E8E3E /* FoodClassifierAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodClassifierAppApp.swift; sourceTree = "<group>"; };
+		6EA1D1112C9770E3005E8E3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6EA1D1132C9770E5005E8E3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EA1D1162C9770E5005E8E3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6EA1D11C2C9770E6005E8E3E /* FoodClassifierAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodClassifierAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA1D1202C9770E6005E8E3E /* FoodClassifierAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodClassifierAppTests.swift; sourceTree = "<group>"; };
+		6EA1D1262C9770E6005E8E3E /* FoodClassifierAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodClassifierAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA1D12A2C9770E6005E8E3E /* FoodClassifierAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodClassifierAppUITests.swift; sourceTree = "<group>"; };
+		6EA1D12C2C9770E6005E8E3E /* FoodClassifierAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodClassifierAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EA1D1092C9770E3005E8E3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA1D1192C9770E6005E8E3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA1D1232C9770E6005E8E3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EA1D1032C9770E3005E8E3E = {
+			isa = PBXGroup;
+			children = (
+				6EA1D10E2C9770E3005E8E3E /* FoodClassifierApp */,
+				6EA1D11F2C9770E6005E8E3E /* FoodClassifierAppTests */,
+				6EA1D1292C9770E6005E8E3E /* FoodClassifierAppUITests */,
+				6EA1D10D2C9770E3005E8E3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EA1D10D2C9770E3005E8E3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EA1D10C2C9770E3005E8E3E /* FoodClassifierApp.app */,
+				6EA1D11C2C9770E6005E8E3E /* FoodClassifierAppTests.xctest */,
+				6EA1D1262C9770E6005E8E3E /* FoodClassifierAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EA1D10E2C9770E3005E8E3E /* FoodClassifierApp */ = {
+			isa = PBXGroup;
+			children = (
+				6EA1D10F2C9770E3005E8E3E /* FoodClassifierAppApp.swift */,
+				6EA1D1112C9770E3005E8E3E /* ContentView.swift */,
+				6EA1D1132C9770E5005E8E3E /* Assets.xcassets */,
+				6EA1D1152C9770E5005E8E3E /* Preview Content */,
+			);
+			path = FoodClassifierApp;
+			sourceTree = "<group>";
+		};
+		6EA1D1152C9770E5005E8E3E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6EA1D1162C9770E5005E8E3E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6EA1D11F2C9770E6005E8E3E /* FoodClassifierAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EA1D1202C9770E6005E8E3E /* FoodClassifierAppTests.swift */,
+			);
+			path = FoodClassifierAppTests;
+			sourceTree = "<group>";
+		};
+		6EA1D1292C9770E6005E8E3E /* FoodClassifierAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6EA1D12A2C9770E6005E8E3E /* FoodClassifierAppUITests.swift */,
+				6EA1D12C2C9770E6005E8E3E /* FoodClassifierAppUITestsLaunchTests.swift */,
+			);
+			path = FoodClassifierAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EA1D10B2C9770E3005E8E3E /* FoodClassifierApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EA1D1302C9770E6005E8E3E /* Build configuration list for PBXNativeTarget "FoodClassifierApp" */;
+			buildPhases = (
+				6EA1D1082C9770E3005E8E3E /* Sources */,
+				6EA1D1092C9770E3005E8E3E /* Frameworks */,
+				6EA1D10A2C9770E3005E8E3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodClassifierApp;
+			productName = FoodClassifierApp;
+			productReference = 6EA1D10C2C9770E3005E8E3E /* FoodClassifierApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EA1D11B2C9770E6005E8E3E /* FoodClassifierAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EA1D1332C9770E6005E8E3E /* Build configuration list for PBXNativeTarget "FoodClassifierAppTests" */;
+			buildPhases = (
+				6EA1D1182C9770E6005E8E3E /* Sources */,
+				6EA1D1192C9770E6005E8E3E /* Frameworks */,
+				6EA1D11A2C9770E6005E8E3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EA1D11E2C9770E6005E8E3E /* PBXTargetDependency */,
+			);
+			name = FoodClassifierAppTests;
+			productName = FoodClassifierAppTests;
+			productReference = 6EA1D11C2C9770E6005E8E3E /* FoodClassifierAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EA1D1252C9770E6005E8E3E /* FoodClassifierAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EA1D1362C9770E6005E8E3E /* Build configuration list for PBXNativeTarget "FoodClassifierAppUITests" */;
+			buildPhases = (
+				6EA1D1222C9770E6005E8E3E /* Sources */,
+				6EA1D1232C9770E6005E8E3E /* Frameworks */,
+				6EA1D1242C9770E6005E8E3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EA1D1282C9770E6005E8E3E /* PBXTargetDependency */,
+			);
+			name = FoodClassifierAppUITests;
+			productName = FoodClassifierAppUITests;
+			productReference = 6EA1D1262C9770E6005E8E3E /* FoodClassifierAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EA1D1042C9770E3005E8E3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					6EA1D10B2C9770E3005E8E3E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					6EA1D11B2C9770E6005E8E3E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6EA1D10B2C9770E3005E8E3E;
+					};
+					6EA1D1252C9770E6005E8E3E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6EA1D10B2C9770E3005E8E3E;
+					};
+				};
+			};
+			buildConfigurationList = 6EA1D1072C9770E3005E8E3E /* Build configuration list for PBXProject "FoodClassifierApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EA1D1032C9770E3005E8E3E;
+			productRefGroup = 6EA1D10D2C9770E3005E8E3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EA1D10B2C9770E3005E8E3E /* FoodClassifierApp */,
+				6EA1D11B2C9770E6005E8E3E /* FoodClassifierAppTests */,
+				6EA1D1252C9770E6005E8E3E /* FoodClassifierAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EA1D10A2C9770E3005E8E3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA1D1172C9770E5005E8E3E /* Preview Assets.xcassets in Resources */,
+				6EA1D1142C9770E5005E8E3E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA1D11A2C9770E6005E8E3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA1D1242C9770E6005E8E3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EA1D1082C9770E3005E8E3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA1D1122C9770E3005E8E3E /* ContentView.swift in Sources */,
+				6EA1D1102C9770E3005E8E3E /* FoodClassifierAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA1D1182C9770E6005E8E3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA1D1212C9770E6005E8E3E /* FoodClassifierAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA1D1222C9770E6005E8E3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA1D12B2C9770E6005E8E3E /* FoodClassifierAppUITests.swift in Sources */,
+				6EA1D12D2C9770E6005E8E3E /* FoodClassifierAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EA1D11E2C9770E6005E8E3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EA1D10B2C9770E3005E8E3E /* FoodClassifierApp */;
+			targetProxy = 6EA1D11D2C9770E6005E8E3E /* PBXContainerItemProxy */;
+		};
+		6EA1D1282C9770E6005E8E3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EA1D10B2C9770E3005E8E3E /* FoodClassifierApp */;
+			targetProxy = 6EA1D1272C9770E6005E8E3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6EA1D12E2C9770E6005E8E3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EA1D12F2C9770E6005E8E3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EA1D1312C9770E6005E8E3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FoodClassifierApp/Preview Content\"";
+				DEVELOPMENT_TEAM = C83W279H9T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chugh.FoodClassifierApp.FoodClassifierApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EA1D1322C9770E6005E8E3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FoodClassifierApp/Preview Content\"";
+				DEVELOPMENT_TEAM = C83W279H9T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chugh.FoodClassifierApp.FoodClassifierApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6EA1D1342C9770E6005E8E3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C83W279H9T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chugh.FoodClassifierApp.FoodClassifierAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodClassifierApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoodClassifierApp";
+			};
+			name = Debug;
+		};
+		6EA1D1352C9770E6005E8E3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C83W279H9T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chugh.FoodClassifierApp.FoodClassifierAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodClassifierApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoodClassifierApp";
+			};
+			name = Release;
+		};
+		6EA1D1372C9770E6005E8E3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C83W279H9T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chugh.FoodClassifierApp.FoodClassifierAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodClassifierApp;
+			};
+			name = Debug;
+		};
+		6EA1D1382C9770E6005E8E3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C83W279H9T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chugh.FoodClassifierApp.FoodClassifierAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodClassifierApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EA1D1072C9770E3005E8E3E /* Build configuration list for PBXProject "FoodClassifierApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EA1D12E2C9770E6005E8E3E /* Debug */,
+				6EA1D12F2C9770E6005E8E3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EA1D1302C9770E6005E8E3E /* Build configuration list for PBXNativeTarget "FoodClassifierApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EA1D1312C9770E6005E8E3E /* Debug */,
+				6EA1D1322C9770E6005E8E3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EA1D1332C9770E6005E8E3E /* Build configuration list for PBXNativeTarget "FoodClassifierAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EA1D1342C9770E6005E8E3E /* Debug */,
+				6EA1D1352C9770E6005E8E3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EA1D1362C9770E6005E8E3E /* Build configuration list for PBXNativeTarget "FoodClassifierAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EA1D1372C9770E6005E8E3E /* Debug */,
+				6EA1D1382C9770E6005E8E3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EA1D1042C9770E3005E8E3E /* Project object */;
+}

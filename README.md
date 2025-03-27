@@ -17,8 +17,6 @@ This repository includes the code for data preprocessing, feature engineering, m
 Watch the demo video on YouTube to see BiteSense in action:  
 [![BiteSense Demo Video](https://img.youtube.com/vi/3eEjJal1DQ8/0.jpg)]([https://www.youtube.com/watch?v=3eEjJal1DQ8](https://www.youtube.com/watch?v=3eEjJal1DQ8))
 
-*Replace `YOUR_VIDEO_ID` with the actual YouTube video ID.*
-
 ## Features
 
 - **Automated Chewing Detection:** Leverages gyroscopic energy signals to reliably detect chewing episodes.
@@ -64,41 +62,13 @@ BiteSense/
    pip install -r requirements.txt
    ```
 
-## Usage
-
-### Data Preprocessing
-To preprocess the raw IMU data, run:
-```bash
-python scripts/preprocess.py --input_dir data/raw --output_dir data/processed
-```
-
-### Model Training
-Train the BiteSense model by executing:
-```bash
-python scripts/train.py --data_dir data/processed --epochs 300
-```
-
-### Model Evaluation
-Evaluate the trained model with:
-```bash
-python scripts/evaluate.py --data_dir data/processed --model_path models/bitesense_transformer.pth
-```
-
 ## Citation
 
 If you find this project useful in your research, please consider citing our work:
 > **BiteSense: Earable-Based Inertial Sensing for Eating Behaviour Assessment**  
 > Garvit Chugh, Indrajeet Ghosh, Sandip Chakraborty, Suchetana Chakraborty.  
-> [Link to the paper or DOI if available]
+> (DOI Coming Soon)
 
 ## Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests for improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to modify the sections to better fit your project details and repository structure.

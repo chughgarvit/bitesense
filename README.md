@@ -24,25 +24,6 @@ Watch the demo video on YouTube to see BiteSense in action:
 - **Intake Behavior Analysis:** Calculates bite rate and meal duration to distinguish between normal eating, overeating, and undereating.
 - **Robust to Variations:** Validated across diverse scenarios and a wide demographic range.
 
-## Repository Structure
-
-```
-BiteSense/
-├── data/
-│   ├── raw/                # Raw IMU data files
-│   ├── processed/          # Processed data for training and evaluation
-├── models/
-│   ├── transformer.py      # Transformer-based model implementation
-│   └── utils.py            # Utility functions for data preprocessing and feature extraction
-├── notebooks/              # Jupyter notebooks for analysis and visualization
-├── scripts/
-│   ├── train.py            # Script to train the model
-│   └── evaluate.py         # Script to evaluate the model performance
-├── requirements.txt        # Python dependencies
-├── README.md               # This file
-└── LICENSE               # Licensing information
-```
-
 ## Installation
 
 1. **Clone the repository:**
